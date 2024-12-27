@@ -32,6 +32,10 @@ class Calculation  with ChangeNotifier{
       _result='Over Weight';
      }
            notifyListeners();
+           ageController.clear();
+           heightInController.clear();
+           heightFtController.clear();
+           weightController.clear();
      }
    }
  }
